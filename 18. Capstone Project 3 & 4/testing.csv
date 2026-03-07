@@ -1,0 +1,10 @@
+CustomerID,Age,Gender,Device,Traffic_Source,Time_on_Website,Pages_Visited,Ad_Clicks,Previous_Purchases,Purchased
+1,23,Male,Mobile,Social Media,5,3,1,0,0
+2,35,Female,Desktop,Search Engine,12,8,3,2,1
+3,29,Male,Tablet,Social Media,8,5,2,1,0
+4,41,Female,Mobile,Email Campaign,15,10,4,3,1
+5,22,Female,Desktop,Direct,4,2,0,0,0
+6,31,Male,Desktop,Search Engine,9,6,2,1,1
+7,27,Female,Mobile,Social Media,6,4,1,0,0
+8,45,Male,Tablet,Email Campaign,20,12,5,4,1
+9,33,Female,Desktop,Direct,7,5,1,1,1

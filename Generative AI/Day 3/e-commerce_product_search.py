@@ -19,6 +19,7 @@ query = "cheap running shoes"
 
 embeddings = model.encode(products)
 query_embeddings = model.encode([query])
+print("Shape:- ", embeddings.shape)
 
 similarity = model.similarity(embeddings, query_embeddings)
 
@@ -32,4 +33,4 @@ for i, score in enumerate(similarity):
         print("-"*56)
 print('='*56)
 
-print(f'\nBest Match:- {products[best_match_index]}\n')
+print(f'\nBest Match:- {products[best_match_index]}\n') 
